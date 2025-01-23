@@ -1,0 +1,11 @@
+numpy
+scipy
+tqdm
+open3d
+hydra
+h5py
+torch
+torchvision
+pyyaml
+matplotlib
+tensorboardX
