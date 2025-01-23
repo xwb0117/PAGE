@@ -1,7 +1,3 @@
-# Pre-defined Keypoints Promote Category-level Articulation Pose Estimation via Multi-Modal Alignment
-This repository is the official implementation of the paper Pre-defined Keypoints Promote Category-level Articulation Pose Estimation via
-Multi-Modal Alignment.
-
 ## Installation
 This code has been tested on Ubuntu 20.04 with Python 3.7, CUDA 11.3 and Pytorch 1.10.0 Firstly, create environment and install the dependencies:
 
