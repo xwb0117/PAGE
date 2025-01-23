@@ -25,7 +25,7 @@ Take Laptop as example:
 python train_KP_Estimator.py --keypointsNo=3  --category=laptop --nparts=2 --part_num=0 --dname=Art
 ```
 
-## Training of KP_Estimator
+## Testing of KP_Estimator
 
 ```bash
 python eval_KP_Estimator.py --keypointsNo=3  --category=laptop --nparts=2 --part_num=0 --dname=Art
@@ -39,7 +39,7 @@ Take Laptop as example:
 python main_PAGE.py --mode=train  --dname=Art  --batch_size=8 --class_name=laptop  --kpt_class=KP  --num_classes=2  --n_sample_points=2048  --input_channel=0  --model=PAGENet  --kpt_num=0  --part_num=0
 ```
 
-## Training of PAGE_Estimator
+## Testing of PAGE_Estimator
 
 ```bash
 python main_PAGE.py --mode=test  --dname=Art  --batch_size=8 --class_name=laptop  --kpt_class=KP  --num_classes=2  --n_sample_points=2048  --input_channel=0  --model=PAGENet  --kpt_num=0  --part_num=0 --using_ckpts=True
